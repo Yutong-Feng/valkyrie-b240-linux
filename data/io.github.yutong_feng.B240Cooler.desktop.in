@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=B240 Cooler Control
+Name[zh_CN]=B240 水冷控制
+Comment=Pump, fan and LCD control for the Valkyrie B240 AIO cooler
+Comment[zh_CN]=调节瓦尔基里 B240 水冷的水泵、风扇转速和冷头屏幕
+Exec=/usr/bin/python3 @LIBDIR@/valkyrie_gui.py
+Icon=io.github.yutong_feng.B240Cooler
+StartupWMClass=io.github.yutong_feng.B240Cooler
+Categories=Settings;HardwareSettings;
+Keywords=cooler;fan;pump;AIO;liquid;LCD;
+Keywords[zh_CN]=水冷;风扇;水泵;散热;冷头;
+StartupNotify=true

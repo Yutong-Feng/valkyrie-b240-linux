@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: valkyrie-b240\n"
+"PO-Revision-Date: 2026-09-30 13:00+0800\n"
+"Last-Translator: Yutong Feng\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "BIOS auto"
+msgstr "BIOS 自动"
+
+msgid "Fixed speed"
+msgstr "固定转速"
+
+msgid "Temperature curve"
+msgstr "温控曲线"
+
+msgid "CPU Tctl (k10temp)"
+msgstr "CPU Tctl（k10temp）"
+
+msgid "CPU die CCD1 (k10temp)"
+msgstr "CPU 核心 CCD1（k10temp）"
+
+msgid "Motherboard CPU sensor"
+msgstr "主板 CPU 传感器"
+
+msgid "GPU (NVIDIA)"
+msgstr "显卡温度（NVIDIA）"
+
+msgid "Hotter of CPU and GPU"
+msgstr "CPU 与显卡中较高者"
+
+msgid "Pump"
+msgstr "水泵"
+
+msgid "Radiator fans"
+msgstr "冷排风扇"
+
+#, python-brace-format
+msgid "System fan #{n}"
+msgstr "系统风扇 #{n}"
+
+#, python-brace-format
+msgid "Now {temp:.0f}°C → {pct:.0f}%"
+msgstr "当前 {temp:.0f}°C → {pct:.0f}%"
+
+msgid "B240 Cooler Control"
+msgstr "B240 水冷控制"
+
+msgid "Authorize…"
+msgstr "授权…"
+
+msgid "Cooling"
+msgstr "散热"
+
+msgid "Cooler LCD"
+msgstr "冷头屏幕"
+
+msgid "Live status"
+msgstr "实时状态"
+
+msgid "CPU temperature"
+msgstr "CPU 温度"
+
+msgid "GPU temperature"
+msgstr "显卡温度"
+
+msgid "System fans"
+msgstr "系统风扇"
+
+msgid "Fan control service"
+msgstr "调速服务"
+
+msgid "Safety"
+msgstr "安全"
+
+msgid "If the fan control service stops, crashes, or cannot read a temperature for 3 seconds, the fans go back to BIOS control."
+msgstr "调速服务退出、崩溃，或连续 3 秒读不到温度时，会自动交还给 BIOS 控制。"
+
+msgid "Emergency full-speed temperature"
+msgstr "紧急全速温度"
+
+msgid "Run at full speed when the CPU or a fan's own temperature source reaches this (°C)"
+msgstr "CPU 或该风扇依据的温度达到此值时，立即全速（°C）"
+
+msgid "Temperature for pump and radiator fans"
+msgstr "水泵和冷排风扇依据的温度"
+
+#, python-brace-format
+msgid "Case fans on the motherboard's SYS_FAN1–6 headers; safety floor {floor}%. Leave unused headers on BIOS auto."
+msgstr "主板 SYS_FAN1–6 接口上的机箱风扇，安全下限 {floor}%。没接风扇的接口保持 BIOS 自动即可。"
+
+msgid "Temperature for system fans"
+msgstr "系统风扇依据的温度"
+
+#, python-brace-format
+msgid "Safety floor {floor}%; lower settings run at the floor"
+msgstr "安全下限 {floor}%，设置低于下限时按下限运行"
+
+msgid "Reset curve to default"
+msgstr "恢复默认曲线"
+
+msgid "Control mode"
+msgstr "控制方式"
+
+msgid "Drag the points: horizontal is temperature, vertical is fan speed; the red area is below the safety floor"
+msgstr "拖动圆点调整：横轴为温度，纵轴为转速；红色区域低于安全下限"
+
+msgid "Fan control is not authorized yet; click “Authorize…” at the top first"
+msgstr "风扇控制还没有授权，请先点击顶部的「授权…」"
+
+#, python-brace-format
+msgid "Failed to start the fan control service: {error}"
+msgstr "启动调速服务失败：{error}"
+
+#, python-brace-format
+msgid "{fan} curve reset to default"
+msgstr "{fan}曲线已恢复默认"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "What the cooler's 2\" screen (320×240) is showing"
+msgstr "冷头 2 寸屏（320×240）当前显示的内容"
+
+msgid "Panel"
+msgstr "面板"
+
+msgid "Show the monitor panel on the cooler"
+msgstr "在冷头上显示监控面板"
+
+msgid "When off, the cooler shows its built-in logo"
+msgstr "关闭后冷头恢复显示内置 logo"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Refresh interval (s)"
+msgstr "刷新间隔（秒）"
+
+msgid "Show seconds on the clock"
+msgstr "时钟显示秒"
+
+msgid "CPU temperature source"
+msgstr "CPU 温度来源"
+
+msgid "Temperature colors"
+msgstr "温度颜色"
+
+msgid "Green below “Warm”, yellow in between, red from “Hot”"
+msgstr "低于「偏高」显示绿色，介于两者之间显示黄色，达到「过热」显示红色"
+
+msgid "Warm (°C)"
+msgstr "偏高（°C）"
+
+msgid "Hot (°C)"
+msgstr "过热（°C）"
+
+#, python-brace-format
+msgid "Failed to switch the panel service: {error}"
+msgstr "切换面板服务失败：{error}"
+
+#, python-brace-format
+msgid "Failed to save settings: {error}"
+msgstr "保存设置失败：{error}"
+
+msgid "Not connected"
+msgstr "未接风扇"
+
+msgid "BIOS control"
+msgstr "BIOS 控制"
+
+msgid "Controlled by this app"
+msgstr "本程序控制"
+
+msgid ", "
+msgstr "，"
+
+msgid "No connected fans detected"
+msgstr "未检测到已连接的风扇"
+
+msgid "Fan driver nct6687 not found; fan speeds and control are unavailable"
+msgstr "未检测到风扇驱动 nct6687，转速读取和调速不可用"
+
+msgid "Controlling the pump and fans needs a one-time authorization (installs a udev rule)"
+msgstr "调节水泵和风扇需要一次性授权（写入一条 udev 规则）"
+
+msgid "Running"
+msgstr "运行中"
+
+msgid "Standby (all fans on BIOS control)"
+msgstr "待命（全部由 BIOS 控制）"
+
+msgid "Not running"
+msgstr "未运行"
+
+msgid "Off"
+msgstr "已关闭"
+
+msgid "Waiting for reboot: the desktop still owns the cooler LCD"
+msgstr "等待重启：桌面仍占用冷头屏幕"
+
+msgid "Driver error; paused until the next reboot"
+msgstr "驱动出错，已暂停，重启后会再试一次"
+
+msgid "Cooler LCD driver not found"
+msgstr "未检测到冷头屏幕驱动"
+
+msgid "Authorized; the pump and fans can now be controlled"
+msgstr "授权完成，现在可以调节水泵和风扇了"
+
+msgid "Authorization was not completed"
+msgstr "授权没有完成"

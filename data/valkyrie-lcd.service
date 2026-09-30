@@ -1,0 +1,11 @@
+[Unit]
+Description=Valkyrie B240 cooler LCD system monitor (direct KMS)
+StartLimitIntervalSec=0
+
+[Service]
+ExecStart=/usr/bin/python3 %h/.local/share/valkyrie-b240/valkyrie_lcd.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

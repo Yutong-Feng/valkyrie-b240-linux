@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the valkyrie-b240 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: valkyrie-b240\n"
+"Report-Msgid-Bugs-To: https://github.com/Yutong-Feng/valkyrie-b240-linux/"
+"issues\n"
+"POT-Creation-Date: 2026-09-30 13:03+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/valkyrie_gui.py:26
+msgid "BIOS auto"
+msgstr ""
+
+#: src/valkyrie_gui.py:26 src/valkyrie_gui.py:314
+msgid "Fixed speed"
+msgstr ""
+
+#: src/valkyrie_gui.py:26
+msgid "Temperature curve"
+msgstr ""
+
+#: src/valkyrie_gui.py:27
+msgid "CPU Tctl (k10temp)"
+msgstr ""
+
+#: src/valkyrie_gui.py:27
+msgid "CPU die CCD1 (k10temp)"
+msgstr ""
+
+#: src/valkyrie_gui.py:27
+msgid "Motherboard CPU sensor"
+msgstr ""
+
+#: src/valkyrie_gui.py:28
+msgid "GPU (NVIDIA)"
+msgstr ""
+
+#: src/valkyrie_gui.py:28
+msgid "Hotter of CPU and GPU"
+msgstr ""
+
+#: src/valkyrie_gui.py:29
+msgid "Pump"
+msgstr ""
+
+#: src/valkyrie_gui.py:29
+msgid "Radiator fans"
+msgstr ""
+
+#: src/valkyrie_gui.py:30
+#, python-brace-format
+msgid "System fan #{n}"
+msgstr ""
+
+#: src/valkyrie_gui.py:152
+#, python-brace-format
+msgid "Now {temp:.0f}°C → {pct:.0f}%"
+msgstr ""
+
+#: src/valkyrie_gui.py:197
+msgid "B240 Cooler Control"
+msgstr ""
+
+#: src/valkyrie_gui.py:213 src/valkyrie_gui.py:496
+msgid "Authorize…"
+msgstr ""
+
+#: src/valkyrie_gui.py:222
+msgid "Cooling"
+msgstr ""
+
+#: src/valkyrie_gui.py:224
+msgid "Cooler LCD"
+msgstr ""
+
+#: src/valkyrie_gui.py:236
+msgid "Live status"
+msgstr ""
+
+#: src/valkyrie_gui.py:237
+msgid "CPU temperature"
+msgstr ""
+
+#: src/valkyrie_gui.py:238
+msgid "GPU temperature"
+msgstr ""
+
+#: src/valkyrie_gui.py:240 src/valkyrie_gui.py:272
+msgid "System fans"
+msgstr ""
+
+#: src/valkyrie_gui.py:241
+msgid "Fan control service"
+msgstr ""
+
+#: src/valkyrie_gui.py:250
+msgid "Safety"
+msgstr ""
+
+#: src/valkyrie_gui.py:251
+msgid ""
+"If the fan control service stops, crashes, or cannot read a temperature for "
+"3 seconds, the fans go back to BIOS control."
+msgstr ""
+
+#: src/valkyrie_gui.py:254
+msgid "Emergency full-speed temperature"
+msgstr ""
+
+#: src/valkyrie_gui.py:255
+msgid ""
+"Run at full speed when the CPU or a fan's own temperature source reaches "
+"this (°C)"
+msgstr ""
+
+#: src/valkyrie_gui.py:259
+msgid "Temperature for pump and radiator fans"
+msgstr ""
+
+#: src/valkyrie_gui.py:273
+#, python-brace-format
+msgid ""
+"Case fans on the motherboard's SYS_FAN1–6 headers; safety floor {floor}%. "
+"Leave unused headers on BIOS auto."
+msgstr ""
+
+#: src/valkyrie_gui.py:275
+msgid "Temperature for system fans"
+msgstr ""
+
+#: src/valkyrie_gui.py:294
+#, python-brace-format
+msgid "Safety floor {floor}%; lower settings run at the floor"
+msgstr ""
+
+#: src/valkyrie_gui.py:303
+msgid "Reset curve to default"
+msgstr ""
+
+#: src/valkyrie_gui.py:307
+msgid "Control mode"
+msgstr ""
+
+#: src/valkyrie_gui.py:336
+msgid ""
+"Drag the points: horizontal is temperature, vertical is fan speed; the red "
+"area is below the safety floor"
+msgstr ""
+
+#: src/valkyrie_gui.py:358
+msgid "Fan control is not authorized yet; click “Authorize…” at the top first"
+msgstr ""
+
+#: src/valkyrie_gui.py:362
+#, python-brace-format
+msgid "Failed to start the fan control service: {error}"
+msgstr ""
+
+#: src/valkyrie_gui.py:368
+#, python-brace-format
+msgid "{fan} curve reset to default"
+msgstr ""
+
+#: src/valkyrie_gui.py:376
+msgid "Preview"
+msgstr ""
+
+#: src/valkyrie_gui.py:376
+msgid "What the cooler's 2\" screen (320×240) is showing"
+msgstr ""
+
+#: src/valkyrie_gui.py:383
+msgid "Panel"
+msgstr ""
+
+#: src/valkyrie_gui.py:384
+msgid "Show the monitor panel on the cooler"
+msgstr ""
+
+#: src/valkyrie_gui.py:385
+msgid "When off, the cooler shows its built-in logo"
+msgstr ""
+
+#: src/valkyrie_gui.py:388
+msgid "Status"
+msgstr ""
+
+#: src/valkyrie_gui.py:390
+msgid "Refresh interval (s)"
+msgstr ""
+
+#: src/valkyrie_gui.py:395
+msgid "Show seconds on the clock"
+msgstr ""
+
+#: src/valkyrie_gui.py:398
+msgid "CPU temperature source"
+msgstr ""
+
+#: src/valkyrie_gui.py:406
+msgid "Temperature colors"
+msgstr ""
+
+#: src/valkyrie_gui.py:407
+msgid "Green below “Warm”, yellow in between, red from “Hot”"
+msgstr ""
+
+#: src/valkyrie_gui.py:409
+msgid "Warm (°C)"
+msgstr ""
+
+#: src/valkyrie_gui.py:412
+msgid "Hot (°C)"
+msgstr ""
+
+#: src/valkyrie_gui.py:434
+#, python-brace-format
+msgid "Failed to switch the panel service: {error}"
+msgstr ""
+
+#: src/valkyrie_gui.py:455
+#, python-brace-format
+msgid "Failed to save settings: {error}"
+msgstr ""
+
+#: src/valkyrie_gui.py:476
+msgid "Not connected"
+msgstr ""
+
+#: src/valkyrie_gui.py:478
+msgid "BIOS control"
+msgstr ""
+
+#: src/valkyrie_gui.py:478
+msgid "Controlled by this app"
+msgstr ""
+
+#: src/valkyrie_gui.py:488
+msgid ", "
+msgstr ""
+
+#: src/valkyrie_gui.py:488
+msgid "No connected fans detected"
+msgstr ""
+
+#: src/valkyrie_gui.py:491
+msgid "Fan driver nct6687 not found; fan speeds and control are unavailable"
+msgstr ""
+
+#: src/valkyrie_gui.py:495
+msgid ""
+"Controlling the pump and fans needs a one-time authorization (installs a "
+"udev rule)"
+msgstr ""
+
+#: src/valkyrie_gui.py:512 src/valkyrie_gui.py:528
+msgid "Running"
+msgstr ""
+
+#: src/valkyrie_gui.py:512
+msgid "Standby (all fans on BIOS control)"
+msgstr ""
+
+#: src/valkyrie_gui.py:512
+msgid "Not running"
+msgstr ""
+
+#: src/valkyrie_gui.py:517
+msgid "Off"
+msgstr ""
+
+#: src/valkyrie_gui.py:530
+msgid "Waiting for reboot: the desktop still owns the cooler LCD"
+msgstr ""
+
+#: src/valkyrie_gui.py:532
+msgid "Driver error; paused until the next reboot"
+msgstr ""
+
+#: src/valkyrie_gui.py:534
+msgid "Cooler LCD driver not found"
+msgstr ""
+
+#: src/valkyrie_gui.py:549
+msgid "Authorized; the pump and fans can now be controlled"
+msgstr ""
+
+#: src/valkyrie_gui.py:552
+msgid "Authorization was not completed"
+msgstr ""

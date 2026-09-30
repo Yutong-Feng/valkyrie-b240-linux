@@ -1,0 +1,5 @@
+# Valkyrie B240 cooler LCD (MacroSilicon usbdisp): keep it off seat0 so X/GNOME/GDM ignore it
+# (as an X output it forces a software mouse cursor that flickers), and let valkyrie_lcd.py
+# drive it directly over KMS. Must sort after 71-seat.rules (which adds the seat tags removed
+# here) and before 73-seat-late.rules (which applies ID_SEAT and uaccess ACLs).
+SUBSYSTEM=="drm", KERNEL=="card[0-9]*", DRIVERS=="msdisp_plat", ENV{ID_SEAT}="seat-valkyrie-lcd", TAG-="master-of-seat", TAG-="uaccess", GROUP="@GROUP@", MODE="0660"

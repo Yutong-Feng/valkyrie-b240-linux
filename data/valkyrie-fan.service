@@ -1,0 +1,12 @@
+[Unit]
+Description=Valkyrie B240 pump/fan controller
+StartLimitIntervalSec=0
+
+[Service]
+ExecStart=/usr/bin/python3 %h/.local/share/valkyrie-b240/valkyrie_fand.py
+ExecStopPost=/usr/bin/python3 %h/.local/share/valkyrie-b240/valkyrie_fand.py --restore
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
